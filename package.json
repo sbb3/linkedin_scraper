@@ -1,0 +1,25 @@
+{
+  "name": "scraper",
+  "version": "1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.4",
+    "fs": "^0.0.1-security",
+    "ora": "^5.4.1",
+    "path": "^0.12.7",
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "user-agents": "^1.1.115"
+  }
+}
